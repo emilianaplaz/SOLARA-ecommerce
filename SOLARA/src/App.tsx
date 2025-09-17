@@ -1,18 +1,17 @@
-import React from 'react';
+// src/App.jsx
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
 
 function App() {
   return (
-    <Router> 
-      <div>
+    <div className="h-full"> {/* This is the key line */}
+      <Router>
         <Routes>
-        
           <Route path="/" element={<LandingPage />} />
-          
         </Routes>
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 }
 
