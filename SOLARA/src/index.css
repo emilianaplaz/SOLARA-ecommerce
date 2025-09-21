@@ -3,10 +3,35 @@
 @tailwind utilities;
 
 @theme {
-  --font-styled: "Italianno", cursive;
+  --font-styled: "Aguafina Script", cursive;
   --font-logo: "Laila", serif;
-  
-  --color-icons: #F6F3EC;
+  --font-primary: "Instrument Serif", serif;
+
+  --color-icons: #f6f3ec;
+  --color-text: #2c2d2d;
+  --color-primary: #361717;
+  --color-primary-200: #d9a6a6;
+  --color-secondary: #f9f6ef;
+  --color-accents: #933e35;
 }
 
-
+@layer utilities {
+  .text-color-primary {
+    color: var(--color-primary);
+  }
+  .text-color-secondary {
+    color: var(--color-secondary);
+  }
+  .bg-color-primary {
+    background-color: var(--color-primary);
+  }
+  .bg-color-secondary {
+    background-color: var(--color-secondary);
+  }
+  .border-color-primary {
+    border-color: var(--color-primary);
+  }
+  .bg-color-accents {
+    background-color: var(--color-accents);
+  }
+}
