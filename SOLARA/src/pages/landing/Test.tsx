@@ -14,8 +14,8 @@ const Test = () => {
         backgroundRepeat: "no-repeat", 
       }}
     >
-      <h1 className="text-4xl font-bold">Skin for the sun</h1>
-      <p className="text-lg">Find out your type of skin to shop the products best suited for you</p>
+      <h1 className="text-4xl font-bold font-primary">Skin for the sun</h1>
+      <p className="text-lg font-thin">Find out your type of skin to shop the products best suited for you</p>
     </div>
   );
 };

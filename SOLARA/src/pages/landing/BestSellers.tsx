@@ -40,7 +40,7 @@ const BestSellers = () => {
       <div className="w-3/4 max-w-5xl border-t border-color-primary"></div>
 
       {/* Section Title */}
-      <h2 className="text-4xl md:text-5xl font-thin font-primary text-color-primary">
+      <h2 className="text-4xl md:text-5xl font-thin font-primary text-primary">
         Meet our best-sellers
       </h2>
 

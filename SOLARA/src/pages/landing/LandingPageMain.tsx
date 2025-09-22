@@ -11,7 +11,7 @@ const LandingPageMain = () => {
         <div className="flex-col">
           <h1 className="text-8xl mb-4 font-thin font-primary text-color-secondary opacity-80">
             Created for {" "}
-            <span className="text-9xl font-styled text-color-secondary opacity-80 mb-4">
+            <span className="text-9xl font-styled text-secondary opacity-80 mb-4">
               skin
             </span>
           </h1>
