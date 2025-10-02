@@ -1,11 +1,13 @@
 // src/App.jsx
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import LandingPage from './pages/LandingPage';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import LandingPage from "./pages/landing/LandingPage";
 
 function App() {
   return (
-    <div className="h-full"> {/* This is the key line */}
+    <div className="h-full">
+      {" "}
+      {/* This is the key line */}
       <Router>
         <Routes>
           <Route path="/" element={<LandingPage />} />
